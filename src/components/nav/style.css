@@ -1,0 +1,35 @@
+@import '/src/index.css';
+
+.tabs {
+    background: var(--dark-color);
+    border-bottom: 3px solid #3d3d3d;
+    padding-top: 16px;
+}
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.nav-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tab {
+    color: #999;
+    padding: 24px 0;
+}
+.tab:hover {
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.tab-text {
+    padding-top: 8px;
+    font-size: 20px;
+}
+.border-tab {
+    border-bottom: var(--primary-color) 4px solid;
+}

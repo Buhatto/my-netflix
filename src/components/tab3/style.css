@@ -1,0 +1,41 @@
+.tab-wrapper {
+    padding: 48px 0;
+}
+.tab-3-content {
+    color: var(--light-color);
+}
+.text-center {
+    text-align: center;
+}
+.text-lg {
+    font-size: 29px;
+    margin-bottom: 16px;
+}
+.btn-lg {
+    font-size: 16px;
+    padding: 13px 21px;
+}
+.table {
+    width: 100%;
+    margin-top: 32px;
+    border-collapse: collapse;
+}
+.table thead th {
+    text-transform: uppercase;
+    padding: 13px;
+}
+.table tbody tr td {
+    color: #999;
+    padding: 13px 19px;
+}
+.table tbody tr:nth-child(2n + 1) {
+    background: #222;
+}
+.table tbody tr td:first-child {
+    text-align: left;
+}
+.table tbody tr td {
+    color: #999;
+    padding: 13px 19px;
+    text-align: center;
+}

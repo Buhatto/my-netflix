@@ -1,0 +1,18 @@
+.tab-wrapper {
+    padding: 48px 0;
+}
+.tab-1-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    align-items: center;
+}
+.text-lg {
+    color: var(--light-color);
+    font-size: 29px;
+    margin-bottom: 16px;
+}
+.btn-lg {
+    font-size: 16px;
+    padding: 13px 21px;
+}
